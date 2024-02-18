@@ -1,0 +1,55 @@
+  
+.textbox{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(to right, orange, red);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+  
+textarea {
+          width: 530px;
+          height: 200px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          padding: 15px;
+          font-family: sans-serif;
+          border-radius: 20px;
+          font-size: 20px;
+    }
+    
+
+    h2{
+        color: black;
+        font-family: serif;
+    }
+    .textbox div{
+        height: 550px;
+        width: 550px;
+        background-color: rgb(85, 85, 186) ;
+        padding: 30px;
+        box-shadow:  10px 10px 10px; 
+    }
+    .bt{
+        color: white;
+        background-color: black;
+        border: none;
+        font-weight: bolder;
+        border-radius: 10px;
+        transition-duration: 1s;
+        padding: 9px;
+        margin: 10px;
+
+    }
+    .bt:hover{
+        transform: scale(1.1);
+        box-shadow: 0px 0px 20px hotpink;
+        color: white;
+        background-color: gold;
+        border: 2px solid royalblue;
+    }

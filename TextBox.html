@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Text-Box</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<!--==========HTML Start==============-->
+<body>
+	<div class="textbox">
+		<div align="center" id="textboxdiv">
+			<form action="#">
+				<marquee hspace="20%"><h2>Enter a Text</h2></marquee>
+				<textarea name="text"id="userText"cols="28"rows="10"onchange="fetchData()"></textarea><br><br><br>
+				<button type="button" class="bt" onclick="upperCase()">upper case</button>
+				
+				<button type="button" class="bt" onclick="lowerCase()">lower case</button>
+				
+				<button type="button" class="bt" onclick="capitalizeWords()">Capitalize Words</button>
+				
+				<button type="button" class="bt" onclick="reverseText()">Reverse</button>
+				
+				<button type="button" class="bt" onclick="removeWhitespace()">Remove Whitespace</button>
+				
+				<button type="button" class="bt" onclick="clearText()">Clear</button>
+			</form>
+			<br>
+			<h3>
+				text contains <span id="words"></span> words and 
+				<span id="character"></span> characters
+			</h3>
+		</div>
+	</div>
+	<!--==========HTML ENDS==============-->
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
